@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/carimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.heading{
+    float: left; 
+    margin: 22px;
+    text-transform: uppercase; 
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ul{
+    
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    list-style: none;
+    
+}
+ul>li{
+    display: inline-block;
+    margin: 10px;
+   padding: 10px;
+}
+li>a{
+    display: block;
+    float: right;
+   
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.area{
+    display: inline;
+    margin: 900px;
+    padding: 200px;
+    text-align: center;
+    justify-content: center;
+}
+h5,h4{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+img{
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+}
